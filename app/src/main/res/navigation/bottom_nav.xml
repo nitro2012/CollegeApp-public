@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@+id/nav_home">
+
+    <fragment android:id="@+id/nav_home"
+        android:label="Home"
+        android:name="com.example.collegeapp.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment android:id="@+id/nav_notice"
+        android:label="Notices"
+        android:name="com.example.collegeapp.ui.notice.NoticeFragment"
+        tools:layout="@layout/fragment_notice"/>
+
+    <fragment android:id="@+id/nav_fac"
+        android:label="Faculty"
+        android:name="com.example.collegeapp.ui.faculty.FacultyFragment"
+        tools:layout="@layout/fragment_faculty"/>
+
+    <fragment android:id="@+id/nav_dept"
+        android:label="Department"
+        android:name="com.example.collegeapp.ui.department.DepartmentFragment"
+        tools:layout="@layout/fragment_department"/>
+</navigation>

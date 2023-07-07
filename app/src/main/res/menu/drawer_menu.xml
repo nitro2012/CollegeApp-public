@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/arch"
+            android:title="Archive"
+            android:icon="@drawable/archive" />
+
+        <item android:id="@+id/gal"
+            android:title="Gallery"
+
+            android:icon="@drawable/gallery" />
+        <item android:id="@+id/eBooks"
+            android:title="E-learning"
+            android:icon="@drawable/ic_pdf1"/>
+
+        <item android:id="@+id/pol"
+            android:title="Policy"
+            android:icon="@drawable/policy" />
+
+        <item android:id="@+id/about"
+            android:title="About"
+            android:icon="@drawable/about" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/share" />
+            <item android:id="@+id/rate"
+                android:title="Rate Us"
+                android:icon="@drawable/rate_us" />
+        </menu>
+    </item>
+
+
+</menu>

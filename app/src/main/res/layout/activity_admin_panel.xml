@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AdminPanel">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/addNotice"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="20dp"
+            android:elevation="5dp"
+            android:layout_margin="10dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/circle_red"
+            android:padding="15dp"
+            android:src="@drawable/ic_notices" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+android:layout_marginTop="10dp"
+                android:background="#c1c1c1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_notice"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="@color/textColor"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/addGalleryImage"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="20dp"
+
+            android:elevation="5dp"
+            android:layout_margin="10dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/circle_purple"
+            android:padding="15dp"
+            android:src="@drawable/ic_gallery" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+android:layout_marginTop="10dp"
+                android:background="#c1c1c1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_image"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="@color/textColor"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.google.android.material.card.MaterialCardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/faculty"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="20dp"
+            android:elevation="5dp"
+            android:layout_margin="10dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/circle_yellow"
+            android:padding="15dp"
+            android:src="@drawable/ic_group" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+android:layout_marginTop="10dp"
+                android:background="#c1c1c1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/show_faculty"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/addeLearningResource"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:elevation="5dp"
+            app:cardCornerRadius="20dp"
+
+            android:layout_margin="10dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/circle_teal"
+            android:padding="15dp"
+            android:src="@drawable/ic_upload" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+android:layout_marginTop="10dp"
+                android:background="#c1c1c1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_e_book"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="@color/textColor"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.google.android.material.card.MaterialCardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/deleteNotices"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="20dp"
+
+            android:elevation="5dp"
+            android:layout_margin="10dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/circle_red"
+            android:padding="15dp"
+            android:src="@drawable/ic_delete" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+android:layout_marginTop="10dp"
+                android:background="#c1c1c1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_notice"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                 />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/addStudent"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="20dp"
+
+            android:elevation="5dp"
+            android:layout_margin="10dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/circle_purple2"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_person_24" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+android:layout_marginTop="10dp"
+                android:background="#c1c1c1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_student"
+                android:textAlignment="center"
+                android:textStyle="bold"
+
+                android:textColor="@color/textColor"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.google.android.material.card.MaterialCardView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:cornerRadius="20dp"
+
+        android:elevation="10dp"
+        android:onClick="LogOut"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>

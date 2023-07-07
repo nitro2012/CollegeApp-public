@@ -1,0 +1,74 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CollegeApp</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username_input_text">username</string>
+    <string name="password_input_text">password</string>
+    <string name="login_button_text">Login</string>
+    <string name="upload_notice">Upload Feed</string>
+    <string name="timetableupdated">Last Updated: </string>
+    <string name="notice_title">Notice Title / News Headline</string>
+    <string name="add_an_image">Add an Image</string>
+    <string name="logout">Logout</string>
+    <string name="change_password">Change Password</string>
+    <string name="delete_notice">Delete Notice</string>
+    <string name="upload_e_book">Upload E-book</string>
+    <string name="show_faculty">Show Faculty</string>
+    <string name="admin_login">Admin</string>
+    <string name="faculty_login">Faculty</string>
+    <string name="student_login">Student</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/montserratbold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/montserratlight</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/montserratregular</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <string name="upload_image">Upload Image</string>
+    <string name="upload_pdf">Upload PDF</string>
+    <string name="pdf_title">PDF Title</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="add_teacher">Add Teacher</string>
+    <string name="Students"> Students</string>
+    <string name="contact_details"><u>Contact Details</u></string>
+    <string name="add_student">Add student</string>
+    <string name="about_content">CollegeApp is an android application centralised on information sharing services. It includes realtime upload/ delete of notices, e-learning resources, images etc. through a singal window interface called as Admin Panel whose access rests with only a single admin or a shared group. The admin can also add faculty and students in a class and subsequently only that faculty and students will have their personalised account access with some amazing features for each of them. The login activity is controlled by Google Firebase authentication hence giving an edge of security. The app is basically a combined version of university website, its ERP portal and google classroom. The potential of app allows it to be highly scalable and its application can be easily implemented within any organisation which requires a single channel for information sharing.
+  For any further details or any professional work, they are available at the under mentioned contact details.</string>
+    <string name="policy_interpretation">The words of which the initial letter is capitalized have meanings defined under the following conditions.
+The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</string>
+    <string name="updation_date">Last Updated: 01 July, 2021</string>
+    <string name="policy_definitions_p1">Company (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Disclaimer) refers to CollegeApp.</string>
+    <string name="policy_definitions_p2">Service refers to the Application.</string>
+    <string name="policy_definitions_p3">You means the individual accessing the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</string>
+    <string name="policy_definitions_p4">Application means the software program provided by the Company downloaded by You on any electronic device named CollegeApp.</string>
+    <string name="disclaimer_p1">The information contained on the Service is for general information purposes only.</string>
+    <string name="disclaimer_p2">The Company assumes no responsibility for errors or omissions in the contents of the Service.</string>
+    <string name="disclaimer_p3">In no event shall the Company be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. The Company reserves the right to make additions, deletions, or modifications to the contents on the Service at any time without prior notice.</string>
+    <string name="disclaimer_p4">The Company does not warrant that the Service is free of viruses or other harmful components.</string>
+    <string name="el_disclaimer_p1">The Service may contain links to external websites that are not provided or maintained by or in any way affiliated with the Company.</string>
+    <string name="el_disclaimer_p2">Please note that the Company does not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.</string>
+    <string name="eo_disclaimer_p1">The information given by the Service is for general guidance on matters of interest only. Even if the Company takes every precaution to insure that the content of the Service is both current and accurate, errors can occur. Plus, given the changing nature of laws, rules and regulations, there may be delays, omissions or inaccuracies in the information contained on the Service.</string>
+    <string name="eo_disclaimer_p2">The Company is not responsible for any errors or omissions, or for the results obtained from the use of this information.</string>
+    <string name="fu_disclaimer_p1">The Company may use copyrighted material which has not always been specifically authorized by the copyright owner. The Company is making such material available for criticism, comment, news reporting, teaching, scholarship, or research. The Company believes this constitutes a &quot;fair use&quot; of any such copyrighted material as provided for in section xxx of the Indian law.</string>
+    <string name="fu_disclaimer_p2">If You wish to use copyrighted material from the Service for your own purposes that go beyond fair use, You must obtain permission from the copyright owner.</string>
+    <string name="nr_disclaiemr_p1">The information on the Service is provided with the understanding that the Company is not herein engaged in rendering legal, accounting, tax, or other professional advice and services. As such, it should not be used as a substitute for consultation with professional accounting, tax, legal or other competent advisers.</string>
+    <string name="nr_disclaimer_p2">In no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever arising out of or in connection with your access or use or inability to access or use the Service.</string>
+    <string name="or_disclaimer_p1">All information in the Service is provided &quot;as is&quot;, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, express or implied, including, but not limited to warranties of performance, merchantability and fitness for a particular purpose.</string>
+    <string name="or_disclaimer_p2">The Company will not be liable to You or anyone else for any decision made or action taken in reliance on the information given by the Service or for any consequential, special or similar damages, even if advised of the possibility of such damages.</string>
+    <string-array name="departments">
+        <item>Department of Computer Science</item>
+        <item>Department of Electrical Engineering</item>
+        <item>Department of Mechanical Engineering</item>
+        <item>Department of Civil Engineering</item>
+    </string-array>
+
+</resources>

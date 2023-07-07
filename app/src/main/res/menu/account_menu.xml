@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/al"
+        android:title="Admin Login" />
+
+    <item
+        android:id="@+id/fl"
+        android:title="Faculty Login" />
+
+    <item
+        android:id="@+id/sl"
+        android:title="Student Login" />
+    <item
+        android:id="@+id/s"
+        android:title="Logged in"
+        android:icon="@drawable/faculty_icon"
+        android:visible="false"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/lg"
+                android:title="Logout"
+                >
+
+            </item>
+        </menu>
+    </item>
+
+</menu>
